@@ -1,0 +1,24 @@
+<% include layouts/_header.ejs %>
+<div class="col-sm-6 col-sm-offset-3">
+
+    <h1><span class="fa fa-sign-in"></span> Signup</h1>
+
+    <!-- show any messages that come back with authentication -->
+    <% if (message.length > 0) { %>
+        <div class="alert alert-danger"><%= message %></div>
+    <% } %>
+
+    <!-- LOGIN FORM -->
+    <form action="/signup" method="post">
+    	<% include layouts/_userform.ejs %>
+    </form>
+	<hr>
+
+    <p>Already have an account? <a href="/login">Login</a></p>
+    <p>Or go <a href="/">home</a>.</p>
+
+</div>
+
+</div>
+</body>
+</html>
