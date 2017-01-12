@@ -16,4 +16,4 @@
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
 
-*.rb linguist-language=NodeJs
+*.rb linguist-language=JavaScript
